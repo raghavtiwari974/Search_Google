@@ -132,7 +132,7 @@ def main():
         st.session_state.search_history = []
     
     # Header
-    st.markdown('<h1 class="main-header">🔍 SearchHub</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 class="main-header">🔍 Intelio</h1>', unsafe_allow_html=True)
     
     # Create tabs
     tab1, tab2, tab3, tab4 = st.tabs(["🔍 Search", "📰 News", "🖼️ Images", "⚙️ Settings"])
